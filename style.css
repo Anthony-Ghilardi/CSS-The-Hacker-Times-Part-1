@@ -15,10 +15,11 @@ body {
     margin: 0 auto;
 }
 
-img {
+/* img {
     width: 100%;
+    height: 150px;
     align-items: center;
-}
+} */
 
 h1 {
     text-align: center;
@@ -46,6 +47,12 @@ main p {
 }
 
 .nav-bar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.nav-bar {
     text-decoration: none;
     border-top: 1em;
     border-bottom: 1em;
@@ -66,7 +73,12 @@ main p {
     display: inline-block;
     width: 44%;
     margin: 0 15px;
+}
 
+.more-articles img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .more-articles h4 {
